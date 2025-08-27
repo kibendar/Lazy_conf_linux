@@ -16,12 +16,28 @@ return {
     opts = {
       workspaces = {
         {
-          name = "studing",
-          path = "~/Obsidian/Ajax Studing/",
+          name = "algo",
+          path = "~/Obsidian/Алгоритмы и структуры данных/",
         },
         {
           name = "theory",
-          path = "~/Obsidian/Theory_of_testing/",
+          path = "~/Obsidian/Теория тестирования/",
+        },
+        {
+          name = "ts",
+          path = "~/Obsidian/TSKnowledge/",
+        },
+        {
+          name = "js",
+          path = "~/Obsidian/JSKnowledge/",
+        },
+        {
+          name = "docker",
+          path = "~/Obsidian/Docker/",
+        },
+        {
+          name = "kafka",
+          path = "~/Obsidian/Kafka/",
         },
       },
 
