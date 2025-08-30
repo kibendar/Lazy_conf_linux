@@ -16,29 +16,45 @@ return {
     opts = {
       workspaces = {
         {
-          name = "algo",
-          path = "~/Obsidian/Алгоритмы и структуры данных/",
+          name = "daily",
+          path = "~/Obsidian/DailyNotes",
         },
         {
-          name = "theory",
-          path = "~/Obsidian/Теория тестирования/",
-        },
-        {
-          name = "ts",
-          path = "~/Obsidian/TSKnowledge/",
+          name = "kafka",
+          path = "~/Obsidian/Kafka/",
         },
         {
           name = "js",
           path = "~/Obsidian/JSKnowledge/",
         },
         {
+          name = "ts",
+          path = "~/Obsidian/TSKnowledge/",
+        },
+        {
+          name = "barodia",
+          path = "~/Obsidian/barodia/",
+        },
+        {
           name = "docker",
           path = "~/Obsidian/Docker/",
         },
         {
-          name = "kafka",
-          path = "~/Obsidian/Kafka/",
+          name = "algo",
+          path = "~/Obsidian/Алгоритмы и структуры данных/",
         },
+        {
+          name = "test",
+          path = "~/Obsidian/Теория тестирования/",
+        },
+      },
+
+      daily_notes = {
+        date_format = "%Y-%m-%d",
+        -- Optional, if you want to change the date format of the default alias of daily notes.
+        alias_format = "%B %-d, %Y",
+        -- Optional, default tags to add to each new daily note created.
+        default_tags = { "daily-notes" },
       },
 
       attachments = {
